@@ -1,0 +1,14 @@
+#!/system/bin/sh
+
+MGKIMG=/sbin/.core/img
+MODID=com.geofferey.screen
+
+TERMINFO=$MGKIMG/$MODID/terminfo
+SHELL=/system/bin/sh
+HOME=/data/home/$(whoami)
+
+if ! [ -d $HOME ]; then
+  mkdir -p $HOME
+fi
+
+LD_LIBRARY_PATH=$MGKIMG/$MODID/lib $MGKIMG/$MODID/screen.real -U $*

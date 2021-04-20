@@ -1,0 +1,9 @@
+id=com.geofferey.screen
+name=GNU Screen for Android
+version=Screen: (v4.06.02) Module: (v1.2b)
+modVer=1.2b
+binVer=4.06.02 arm
+versionCode=40602
+author=geofferey @ xda-developers
+description=GNU screen for Android shell. Bins and libs compiled by TERMUX team. Adapted to run outside termux environment system-wide and system-lessly. Useful for ADB, SSH, Telnet & terminal emulator apps.
+minMagisk=17000
